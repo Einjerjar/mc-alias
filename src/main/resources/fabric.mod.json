@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "mcalias",
+  "version": "${version}",
+
+  "name": "MC-Alias",
+  "description": "Create command shortcut/aliases for servers",
+  "authors": [
+    "Einjerjar"
+  ],
+  "contact": {
+    "sources": "https://github.com/Einjerjar/mc-alias"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mcalias/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.einjerjar.mc.mcalias.Main"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
